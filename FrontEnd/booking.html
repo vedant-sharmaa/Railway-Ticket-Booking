@@ -5,39 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <title>Document</title>
-    <script src="myScript.js"></script>
 </head>
 <body>
-    <div class="card border-dark mb-3" style="width: 90rem;">
-        <div class="card-body">
-            <h4>LTT GKP SF EXP (20103)</h4>
+<div class="card border-dark mb-3" style="width: 90rem;">
+    <div class="card-body">
+        <h4>LTT GKP SF EXP (20103)</h4>
         <p>22:18 | V LAKSHMIBAI | Wed, 01 Jun</p>
         <p>03:35 | KANPUR CENTRAL | Thu, 02 Jun</p>
-        </div>
-      </div>
-    <br>
-    <form action="">
-        <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Ticket Id" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Seat Number" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Price" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Payment Id" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Status" aria-label="Username" aria-describedby="basic-addon1">
-          </div>
-            <input type="button" class="btn btn-primary" id="submit" onclick="getTickets()">SUBMIT</input>
-    </form>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </div>
+</div>
+<br>
+<form action="">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="ticketid" placeholder="Ticket Id" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="name" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="seatnumber" placeholder="Seat Number" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="price" placeholder="Price" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="paymentid" placeholder="Payment Id" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" id="status" placeholder="Status" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <input type="button" class="btn btn-primary" id="submit" value="Submit" ></input>
+</form>
+<script src="myScript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
